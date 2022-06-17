@@ -10,6 +10,8 @@ export const DateAndTime = ({ weatherData, unitSystem }) => {
           weatherData.dt,
           weatherData.timezone
         )} ${getAMPM(unitSystem, weatherData.dt, weatherData.timezone)}`}
+
+        
       </h2>
     </div>
   );
